@@ -1,0 +1,11 @@
+<!--<p>{{ listName }} works!</p>-->
+
+<h1 class="text-center">{{ listName | titlecase }}</h1>
+
+<div class="row row-cols-1 row-cols-md-2 g-4">
+  <!-- *ngFor="let item of whislistItems" -->
+  <div class="col" *ngFor="let item of whislistItems | async">
+      <!-- Llamamos a nuestro componente hijo -->
+      <app-item-card [item]="item" (idEmitter)="idEmitted($event)"></app-item-card>
+  </div>
+</div>

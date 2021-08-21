@@ -1,0 +1,9 @@
+{
+    "wishlist": [
+        {"id": 1, "name": "Luffy funko", "img": "https://static.thcdn.com/images/large/webp/productimg/1600/1600/11246407-8449048513454521.jpg"},
+        {"id": 2, "name": "Ace funko", "img": "https://images-na.ssl-images-amazon.com/images/I/51fJ2qPARgL._AC_SX425_.jpg"},
+        {"id": 3, "name": "Halcón Milenario", "img": "https://images-na.ssl-images-amazon.com/images/I/81Yp3rHH5HL._AC_SX355_.jpg"},
+        {"id": 4, "name": "Naruto Funko", "img": "https://img.dynos.es/img/1cb91/2062b/13612060604-0.jpg"}
+    ]
+
+}
